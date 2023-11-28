@@ -1,23 +1,13 @@
-# Nextra Docs Template 
+The skeleton for the documentation was forked from Nextra.
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## Contributing
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+Edit or add `mdx` files to the `pages` folder.
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## Building Locally
 
-## Quick Start
+1. ```bun install```
+2. ```bun run build```
+3. ```bun run start```
 
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+To run an `dev` session (where editing the files will automatically update the local session) instead, run `bun run dev` instead of `bun run start`.
