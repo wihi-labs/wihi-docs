@@ -4,6 +4,9 @@ The skeleton for the documentation was forked from Nextra.
 
 Edit or add `mdx` files to the `pages` folder.
 
+Note that pushing to Github automatically pushes changes to production. 
+
+
 ## Building Locally
 
 1. ```bun install```
