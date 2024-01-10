@@ -1,11 +1,7 @@
-The skeleton for the documentation was forked from Nextra.
-
 ## Contributing
 
-Edit or add `mdx` files to the `pages` folder.
-
-Note that pushing to Github automatically pushes changes to production. 
-
+1. Branch the repo (remember to name the branch appropriately)
+2. Edit or add `mdx` files to the `pages` folder.
 
 ## Building Locally
 
