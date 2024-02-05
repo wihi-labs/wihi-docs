@@ -1,9 +1,10 @@
 {
-  "index": "Introduction",
+  "intro": "Introduction",
   "nmos": "National Meteorological Organizations",
   "weather-models": "Weather Models",
   "stations": "Weather Stations",
   "meteorological-data": "Meteorological Data",
+  "cryptoeconomics": "Cryptoeconomics",
   "about": {
     "title": "About",
     "type": "page"
