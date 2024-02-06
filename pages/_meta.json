@@ -2,11 +2,12 @@
   "intro": "Introduction",
   "community": "Community",
   "cryptoeconomics": "Cryptoeconomics",
-  "nmos": "National Meteorological Organizations",
-  "weather-models": "Weather Models",
-  "stations": "Weather Stations",
-  "meteorological-data": "Meteorological Data",
-  
+  "stations": "Weather Stations & Tools",
+  "meteo": "Metereology, Weather and Climate",
+  "it": "IT Architecture",
+  "research": "WiHi Research",
+  "fundamentals":"Fundamentals/ Background",
+  "res": "Resources",  
   "about": {
     "title": "About",
     "type": "page"
