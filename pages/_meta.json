@@ -1,6 +1,6 @@
 {
-  "index": "Hello World",
-  "intro": "Introduction",
+  "index": "WiHi docs",
+  "intro": "Introduction to WiHi",
   "community": "Community & Organization",
   "cryptoeconomics": "Cryptoeconomics",
   "stations": "Weather Stations & Tools",
@@ -10,13 +10,15 @@
   "fundamentals":"Fundamentals/ Background",
   "res": "Resources",  
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About ↗",
+    "type": "page",
+    "href": "https://wihi.cc/#about",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/wihiweather",
+    "href": "https://wihi.cc/#join",
     "newWindow": true
   }
 }
