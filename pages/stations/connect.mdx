@@ -1,0 +1,35 @@
+# Connecting a weather station to WiHi
+
+WiHi is a community-driven open-hardware initiative.
+We are open to all weather station devices.
+In order to be able to participate in the WiHi network, a weather station needs to be able to send its data to WiHi or be able to expose an API that can be queried by WiHi. 
+In the following, we will list the different connection possibilities.  
+
+## FTP
+
+WiHi enables the sharing of weather data via [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol). For this, a weather station needs to send its data to WiHi’s FTP server.
+The onboarding process looks as follows:
+
+- Weather station operator fills out [this](https://docs.google.com/forms/d/1VXQkadfNevLZrmhRV2XvjeH886yNzkhXj13whJOhk3U) survey
+- Weather station operator obtains FTP server details and credentials from WiHi
+- Weather station operator sends files per station owned via FTP to WiHi server
+
+### Example 1: sending data via Weather Display 
+
+You connect your weather station with your local server/ computer and send the data to WiHi via the [weather display](https://www.weather-display.com/) software (see image below).
+
+![Weather Display](./../img/weather_display_modified.png)
+
+ 
+Also other sofware like [WeeWx](https://weewx.com/) (which is open source) can be used to uploade files via FTP: https://weewx.com/docs/4.10/usersguide.htm#config_FTP 
+
+### Example 2: sending data via Ecowitt cloud 
+In case you have an Ecowitt weather station that sends data to the Ecowitt cloud, you can use their [API]( https://doc.ecowitt.net/web/#/apiv3en?page_id=17) to send the data to your server. From there you could 
+use Example 1 to send the data to us, e.g. Weather Display can directly query the data from Ecowitt.
+
+
+## API
+
+Work in progress
+
+

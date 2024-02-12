@@ -1,16 +1,24 @@
 {
-  "index": "Introduction",
-  "nmos": "National Meteorological Organizations",
-  "weather-models": "Weather Models",
-  "meteorological-data": "Meteorological Data",
+  "index": "WiHi docs",
+  "intro": "Introduction to WiHi",
+  "community": "Community & Organization",
+  "cryptoeconomics": "Cryptoeconomics",
+  "stations": "Weather Stations & Tools",
+  "meteo": "Metereology, Weather and Climate",
+  "it": "IT Architecture",
+  "research": "WiHi Research",
+  "fundamentals":"Fundamentals/ Background",
+  "res": "Resources",  
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About ↗",
+    "type": "page",
+    "href": "https://wihi.cc/#about",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/wihiweather",
+    "href": "https://wihi.cc/#join",
     "newWindow": true
   }
 }
