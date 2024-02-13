@@ -4,7 +4,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>WiHi</span>,
   project: {
-    link: 'https://github.com/wihi-labs',
+    link: 'https://github.com/wihi-labs/wihi-docs',
   },
   chat: {
     link: 'https://discord.gg/wihi',
