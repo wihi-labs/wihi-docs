@@ -20,9 +20,6 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/wihi-labs/wihi-docs',
   footer: {
-    text: 'WiHi Docs',
-  },
-  footer: {
     text: `© ${new Date().getFullYear()} WiHi. All rights reserved.`,
   },
 }
