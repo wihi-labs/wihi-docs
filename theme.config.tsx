@@ -22,6 +22,9 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'WiHi Docs',
   },
+  footer: {
+    text: `© ${new Date().getFullYear()} WiHi. All rights reserved.`,
+  },
 }
 
 export default config
