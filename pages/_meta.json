@@ -1,14 +1,6 @@
 {
   "index": "WiHi docs",
-  "intro": "Introduction to WiHi",
-  "community": "Community & Organization",
-  "cryptoeconomics": "Cryptoeconomics",
-  "stations": "Weather Stations & Tools",
-  "meteo": "Metereology, Weather and Climate",
-  "it": "System Architecture",
-  "research": "WiHi Research",
-  "fundamentals":"Fundamentals/ Background",
-  "res": "Resources",  
+  "intro": "Getting Started",
   "about": {
     "title": "About ↗",
     "type": "page",
