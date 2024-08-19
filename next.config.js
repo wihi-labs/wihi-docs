@@ -3,7 +3,3 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.tsx',
 })
 
-module.exports = withNextra({
-	defaultTitle: 'WiHi',
-	titleSuffix: ' | WiHi',
-})

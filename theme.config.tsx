@@ -22,6 +22,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: `© ${new Date().getFullYear()} WiHi. All rights reserved.`,
   },
+  useNextSeoProps() {
+	  return {
+		titleTemplate: '%s | WiHi'
+		defaultTitle: 'WiHi Docs'
+	  }
+  },
 }
 
 export default config
