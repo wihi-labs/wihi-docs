@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
 	  return {
-		titleTemplate: '%s | WiHi'
+		titleTemplate: '%s | WiHi',
 		defaultTitle: 'WiHi Docs'
 	  }
   },
