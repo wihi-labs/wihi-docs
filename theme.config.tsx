@@ -10,6 +10,10 @@ const config: DocsThemeConfig = {
   head: (
 	<>
 		<link rel="icon" href="/favicon.png" type="image/png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
 	</>
   ),
   project: {
@@ -28,6 +32,9 @@ const config: DocsThemeConfig = {
 		defaultTitle: 'WiHi Docs'
 	  }
   },
+  font: false,
+  primaryHue: { dark: 200, light: 200 },
+  primarySaturation: { dark: 100, light: 100 },
 }
 
 export default config

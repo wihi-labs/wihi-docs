@@ -1,16 +1,11 @@
 {
-  "index": "WiHi docs",
-  "intro": "Getting Started",
-  "about": {
-    "title": "About ↗",
-    "type": "page",
-    "href": "https://wihi.cc/#about",
-    "newWindow": true
-  },
+  "index": "Introduction",
+  "start": "Getting Started",
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://wihi.cc/#join",
     "newWindow": true
-  }
+  },
+  "tokenomics": "Tokenomics"
 }
