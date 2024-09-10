@@ -2,5 +2,44 @@
 title: 'Contribute data'
 ---
 
-
 # Sending data to WiHi
+
+WiHi welcomes any and all data contributions regardless of the underlying hardware manufacturer. 
+
+WiHi exposes a simple REST-based API (api.wihi.cc) for data contributions.
+
+Hit the `/station` endpoint with a `POST` request containing your API key in the header as a bearer token. Your API key can be found in your profile. 
+
+A sample `POST` request using `curl` that can be executed from any terminal looks like this:
+
+```shell
+curl -X POST 
+	 -H "Authorization: Bearer YOUR_API_KEY" 
+	 -H "Content-Type: application/json" -d '{"station_id":...}' 
+	 https://api.wihi.cc/station
+```
+
+where the JSON containing the data has the following schema:
+
+```json
+{
+	"station_id": "string", 		// your WiHi station id 
+	"timestamp": "int", 			// timestamp of the observation
+	"precipitation": "float64",		// also known as precipitation_accumulated by some manufacturers
+	"battery": "float64",
+	"leaf_wetness": "float64",	
+	"temperature_avg": "float64",
+	"tempurature_max": "float64",
+	"temperature_min": "float64",
+	"relative_humidity_avg": "float64",
+	"relative_humidity_max": "float64",
+	"relative_humidity_min": "float64",
+	"dewpoint_avg": "float64",
+	"dewpoint_min": "float64",
+	"midnight": "int",
+	"pressure": "float64",
+	"wind_speed": "float64",
+}
+```
+
+If the data from your station doesn't look like the above, ping us on discord and we will gladly support your data!
