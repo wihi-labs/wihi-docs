@@ -1,11 +1,12 @@
 {
   "index": "Introduction",
+  "how": "How WiHi works",
+  "tokenomics": "Tokenomics",
   "start": "Getting Started",
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://wihi.cc/#join",
     "newWindow": true
-  },
-  "tokenomics": "Tokenomics"
+  }
 }
