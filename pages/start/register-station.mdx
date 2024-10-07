@@ -4,21 +4,23 @@ title: 'Register'
 
 # Register your weather station
 
-As an open-hardware weather intelligence platform, WiHi takes data from any weather station, regardless of the manufacturer. 
+Weather stations must first be registered on the WiHI platform. Registering a station is necessary for:
 
-If you truly own your data, send us your data and own the weather intelligence platform of the future!
+1. Recording a station's metadata (location, manufacturer, model, etc) 
+1. Obtaining a WiHi ID used to identify data contributions
 
-#### Signing up
+### Guide
+#### Step 1: Sign up
 
-Signing up is easy at WiHi and is the same as logging in. Just login at [stations.wihi.cc](stations.wihi.cc) with your email. We'll send you a magic link to log into the platform. 
+Signing up is easy at WiHi: just log in at [stations.wihi.cc](https://stations.wihi.cc), even for your first time. WiHi uses email-based authentication. We'll send you a magic link to log into the platform. 
 
-#### Adding a station 
+#### Setp 2: Add a station 
 
 In the [profiles](https://stations.wihi.cc/profile) page, find the "Add a station" button and fill in the following information for your station:
 ```json
 {
 	"name": "string", // what you call your station, a nickname
-	"manufacturer_id": "string",
+	"manufacturer_id": "string",	// id uniquely identifying station within a network (manufacturer or )
 	"manufacturer": "string",
 	"model": "string",
 	"latitude": "float64",
