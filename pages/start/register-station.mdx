@@ -14,17 +14,18 @@ Weather stations must first be registered on the WiHI platform. Registering a st
 
 Signing up is easy at WiHi: just log in at [stations.wihi.cc](https://stations.wihi.cc), even for your first time. WiHi uses email-based authentication. We'll send you a magic link to log into the platform. 
 
-#### Setp 2: Add a station 
+#### Step 2: Add a station 
 
 In the [profiles](https://stations.wihi.cc/profile) page, find the "Add a station" button and fill in the following information for your station:
 ```json
 {
-	"name": "string", // what you call your station, a nickname
-	"manufacturer_id": "string",	// id uniquely identifying station within a network (manufacturer or )
+	"name": "string",	// what you call your station, a nickname
+	"manu_id": "string",	// (required) id uniquely identifying station within originating network (manufacturer, public station network, etc)
 	"manufacturer": "string",
 	"model": "string",
-	"latitude": "float64",
-	"longitude": "float64",
+	"latitude": "float64",	// (required)
+	"longitude": "float64",	// (required)
 	"altitude": "float64",
+	"network": "string" // if left blank, defaults to "individual". Private companies should set this to their company
 }
 ```
