@@ -19,14 +19,16 @@ curl -X POST
 	 https://api.wihi.cc/station
 ```
 
-where the JSON containing the data has the following schema:
+## JSON format
+
+Each individual observation should be a JSON object with the following schema:
 
 ```json
 {
-	"station_id": "string", 		// your WiHi station id 
+	"station_id": "string", 			// your WiHi station id 
 	"timestamp_start": "int", 			// start timestamp of the observation
 	"timestamp_end": "int",				// end timestamp of the observation
-	"precipitation": "float64",		// also known as precipitation_accumulated by some manufacturers
+	"precipitation": "float64",			// also known as precipitation_accumulated by some manufacturers
 	"battery": "float64",
 	"leaf_wetness": "float64",	
 	"temperature_avg": "float64",
@@ -43,4 +45,17 @@ where the JSON containing the data has the following schema:
 }
 ```
 
-If the data from your station doesn't look like the above, ping us on discord and we will gladly support your data!
+Note that:
+
+- the `station_id` must be specified, otherwise, the observation is dropped. `station_id`'s can currently be found
+in the user profile.
+
+- if the observation is a point observation, omit the `timestamp_end` field. Conversely, if the `temperature_end`
+field is non-empty, then the observation is interpreted to be an (observation) range. 
+
+- if the station does not contain a particular observation type, it can be omitted. For example, if your
+station does not capture the `relative_humidity_avg` field, omit it in the observation JSON.
+
+
+If the data from your station doesn't look like the above or if you're unsure of anything, please 
+ping us on discord or reach out to us by email!
