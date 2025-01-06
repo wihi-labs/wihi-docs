@@ -1,3 +1,5 @@
+**Old docs using Nextra, now archived**
+
 ## Contributing
 
 1. Branch the repo (remember to name the branch appropriately)
